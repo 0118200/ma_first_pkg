@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.000736] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000833] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000888] (-) JobUnselected: {'identifier': 'pkg1'}
+[0.001969] (first_interfaces) JobQueued: {'identifier': 'first_interfaces', 'dependencies': OrderedDict()}
+[0.002018] (first_interfaces) JobStarted: {'identifier': 'first_interfaces'}
+[0.019533] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'cmake'}
+[0.021367] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'build'}
+[0.021452] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eilero/ros2_ws/src/build/first_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/eilero/ros2_ws/src/build/first_interfaces', 'env': OrderedDict({'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/eilero/ros2_ws/src/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/ros2_ws/src/install:/home/eilero/ros2_ws/install:/home/eilero/install:/home/eilero/ros2_ws/src/first_interfaces/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/ros2_ws/src/install/first_interfaces:/home/eilero/ros2_ws/src/first_interfaces/install/first_interfaces:/home/eilero/ros2_ws/src/install/cpp_srvcli:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/ros2_ws/src/install/pkg1:/home/eilero/ros2_ws/src/install/cpp_pubsub:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/ros2_ws/src/build/first_interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/ros2_ws/src/install/first_interfaces:/home/eilero/ros2_ws/src/first_interfaces/install/first_interfaces:/home/eilero/ros2_ws/src/install/cpp_srvcli:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/ros2_ws/src/install/pkg1:/home/eilero/ros2_ws/src/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.073795] (first_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099910] (-) TimerEvent: {}
+[0.107341] (first_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.200093] (-) TimerEvent: {}
+[0.232949] (first_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.271567] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.285285] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.300218] (-) TimerEvent: {}
+[0.303568] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.324915] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.393213] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.400360] (-) TimerEvent: {}
+[0.407304] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.409885] (first_interfaces) StdoutLine: {'line': b'-- Found first_interfaces: 0.0.0 (/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake)\n'}
+[0.461908] (first_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.500473] (-) TimerEvent: {}
+[0.523952] (first_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.526364] (first_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600707] (-) TimerEvent: {}
+[0.628188] (first_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700819] (-) TimerEvent: {}
+[0.801196] (-) TimerEvent: {}
+[0.901611] (-) TimerEvent: {}
+[1.002061] (-) TimerEvent: {}
+[1.102538] (-) TimerEvent: {}
+[1.139910] (first_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake:145 (add_library):\n'}
+[1.140354] (first_interfaces) StderrLine: {'line': b'  add_library cannot create ALIAS target\n'}
+[1.140536] (first_interfaces) StderrLine: {'line': b'  "first_interfaces::first_interfaces__rosidl_generator_c" because another\n'}
+[1.140713] (first_interfaces) StderrLine: {'line': b'  target with the same name already exists.\n'}
+[1.140901] (first_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.141050] (first_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.141201] (first_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)\n'}
+[1.141340] (first_interfaces) StderrLine: {'line': b'  CMakeLists.txt:26 (rosidl_generate_interfaces)\n'}
+[1.141424] (first_interfaces) StderrLine: {'line': b'\n'}
+[1.141506] (first_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.143410] (first_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.202659] (-) TimerEvent: {}
+[1.303120] (-) TimerEvent: {}
+[1.311636] (first_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/rosidl_generator_cpp_generate_interfaces.cmake:142 (add_library):\n'}
+[1.312029] (first_interfaces) StderrLine: {'line': b'  add_library cannot create ALIAS target\n'}
+[1.312206] (first_interfaces) StderrLine: {'line': b'  "first_interfaces::first_interfaces__rosidl_generator_cpp" because another\n'}
+[1.312357] (first_interfaces) StderrLine: {'line': b'  target with the same name already exists.\n'}
+[1.312501] (first_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.312645] (first_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.312879] (first_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)\n'}
+[1.313036] (first_interfaces) StderrLine: {'line': b'  CMakeLists.txt:26 (rosidl_generate_interfaces)\n'}
+[1.313118] (first_interfaces) StderrLine: {'line': b'\n'}
+[1.313199] (first_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.403283] (-) TimerEvent: {}
+[1.474337] (first_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_c_generate_interfaces.cmake:122 (add_library):\n'}
+[1.474751] (first_interfaces) StderrLine: {'line': b'  add_library cannot create ALIAS target\n'}
+[1.474955] (first_interfaces) StderrLine: {'line': b'  "first_interfaces::first_interfaces__rosidl_typesupport_introspection_c"\n'}
+[1.475051] (first_interfaces) StderrLine: {'line': b'  because another target with the same name already exists.\n'}
+[1.475136] (first_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.475224] (first_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.475310] (first_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)\n'}
+[1.475393] (first_interfaces) StderrLine: {'line': b'  CMakeLists.txt:26 (rosidl_generate_interfaces)\n'}
+[1.475472] (first_interfaces) StderrLine: {'line': b'\n'}
+[1.475552] (first_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.503408] (-) TimerEvent: {}
+[1.552260] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.603553] (-) TimerEvent: {}
+[1.634959] (first_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/cmake/rosidl_typesupport_introspection_cpp_generate_interfaces.cmake:111 (add_library):\n'}
+[1.635351] (first_interfaces) StderrLine: {'line': b'  add_library cannot create ALIAS target\n'}
+[1.635525] (first_interfaces) StderrLine: {'line': b'  "first_interfaces::first_interfaces__rosidl_typesupport_introspection_cpp"\n'}
+[1.635742] (first_interfaces) StderrLine: {'line': b'  because another target with the same name already exists.\n'}
+[1.635877] (first_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.635966] (first_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.636052] (first_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)\n'}
+[1.636134] (first_interfaces) StderrLine: {'line': b'  CMakeLists.txt:26 (rosidl_generate_interfaces)\n'}
+[1.636215] (first_interfaces) StderrLine: {'line': b'\n'}
+[1.636296] (first_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.703730] (-) TimerEvent: {}
+[1.710101] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.712262] (first_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.803862] (-) TimerEvent: {}
+[1.904188] (-) TimerEvent: {}
+[1.934834] (first_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.961909] (first_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.978807] (first_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.979079] (first_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.979228] (first_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.980733] (first_interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.980809] (first_interfaces) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.983592] (first_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.985051] (first_interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.996217] (first_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.996385] (first_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.997255] (first_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.998603] (first_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.004299] (-) TimerEvent: {}
+[2.006734] (first_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:1355: cmake_check_build_system] Error 1\n'}
+[2.009658] (first_interfaces) CommandEnded: {'returncode': 2}
+[2.021095] (first_interfaces) JobEnded: {'identifier': 'first_interfaces', 'rc': 2}
+[2.031845] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+{
+  "package_name": "first_interfaces",
+  "non_idl_tuples": [
+    "/home/eilero/ros2_ws/src/first_interfaces:msg/Num.msg",
+    "/home/eilero/ros2_ws/src/first_interfaces:msg/Sphere.msg",
+    "/home/eilero/ros2_ws/src/first_interfaces:srv/AddThreeInts.srv"
+  ]
+}

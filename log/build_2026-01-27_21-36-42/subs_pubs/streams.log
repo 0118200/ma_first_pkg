@@ -1,0 +1,30 @@
+[0.023s] Invoking command in '/home/eilero/ros2_ws/build/subs_pubs': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/build/subs_pubs -- -j16 -l16
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subs.cpp.o[0m
+[0.091s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pubs.cpp.o[0m
+[3.641s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[3.793s] [ 75%] Built target talker
+[5.853s] [100%] [32m[1mLinking CXX executable listener[0m
+[6.059s] [100%] Built target listener
+[6.072s] Invoked command in '/home/eilero/ros2_ws/build/subs_pubs' returned '0': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/build/subs_pubs -- -j16 -l16
+[6.082s] Invoking command in '/home/eilero/ros2_ws/build/subs_pubs': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/ros2_ws/build/subs_pubs
+[6.089s] -- Install configuration: ""
+[6.090s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/lib/subs_pubs/talker
+[6.091s] -- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/install/subs_pubs/lib/subs_pubs/talker" to ""
+[6.091s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/lib/subs_pubs/listener
+[6.095s] -- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/install/subs_pubs/lib/subs_pubs/listener" to ""
+[6.095s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/ament_index/resource_index/package_run_dependencies/subs_pubs
+[6.095s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/ament_index/resource_index/parent_prefix_path/subs_pubs
+[6.096s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/ament_prefix_path.sh
+[6.096s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/ament_prefix_path.dsv
+[6.096s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/path.sh
+[6.096s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/path.dsv
+[6.096s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.bash
+[6.096s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.sh
+[6.096s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.zsh
+[6.096s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.dsv
+[6.096s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/package.dsv
+[6.097s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/ament_index/resource_index/packages/subs_pubs
+[6.097s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/cmake/subs_pubsConfig.cmake
+[6.097s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/cmake/subs_pubsConfig-version.cmake
+[6.097s] -- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/package.xml
+[6.099s] Invoked command in '/home/eilero/ros2_ws/build/subs_pubs' returned '0': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/ros2_ws/build/subs_pubs

@@ -1,0 +1,73 @@
+[0.012s] Invoking command in '/home/eilero/ros2_ws/src/build/first_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/first_interfaces -- -j16 -l16
+[0.043s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.061s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.148s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.155s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.205s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.212s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.213s] -- Found first_interfaces: 0.0.0 (/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake)
+[0.238s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.267s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.268s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.321s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.584s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake:145 (add_library):
+[0.585s]   add_library cannot create ALIAS target
+[0.585s]   "first_interfaces::first_interfaces__rosidl_generator_c" because another
+[0.585s]   target with the same name already exists.
+[0.585s] Call Stack (most recent call first):
+[0.585s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.585s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)
+[0.585s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[0.585s] 
+[0.585s] [0m
+[0.586s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.675s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/rosidl_generator_cpp_generate_interfaces.cmake:142 (add_library):
+[0.676s]   add_library cannot create ALIAS target
+[0.676s]   "first_interfaces::first_interfaces__rosidl_generator_cpp" because another
+[0.676s]   target with the same name already exists.
+[0.676s] Call Stack (most recent call first):
+[0.676s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.676s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)
+[0.676s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[0.676s] 
+[0.676s] [0m
+[0.760s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_c_generate_interfaces.cmake:122 (add_library):
+[0.760s]   add_library cannot create ALIAS target
+[0.761s]   "first_interfaces::first_interfaces__rosidl_typesupport_introspection_c"
+[0.761s]   because another target with the same name already exists.
+[0.761s] Call Stack (most recent call first):
+[0.761s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.761s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)
+[0.761s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[0.761s] 
+[0.761s] [0m
+[0.800s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.845s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/cmake/rosidl_typesupport_introspection_cpp_generate_interfaces.cmake:111 (add_library):
+[0.846s]   add_library cannot create ALIAS target
+[0.846s]   "first_interfaces::first_interfaces__rosidl_typesupport_introspection_cpp"
+[0.846s]   because another target with the same name already exists.
+[0.846s] Call Stack (most recent call first):
+[0.846s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.846s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)
+[0.846s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[0.846s] 
+[0.847s] [0m
+[0.884s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.885s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.102s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.131s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.149s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.149s] -- Configured cppcheck include dirs: 
+[1.150s] -- Configured cppcheck exclude dirs and/or files: 
+[1.151s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.151s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.154s] -- Added test 'lint_cmake' to check CMake code style
+[1.156s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.166s] -- Added test 'uncrustify' to check C / C++ code style
+[1.167s] -- Configured uncrustify additional arguments: 
+[1.168s] -- Added test 'xmllint' to check XML markup files
+[1.169s] -- Configuring incomplete, errors occurred!
+[1.180s] gmake: *** [Makefile:1355: cmake_check_build_system] Error 1
+[1.183s] Invoked command in '/home/eilero/ros2_ws/src/build/first_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/first_interfaces -- -j16 -l16

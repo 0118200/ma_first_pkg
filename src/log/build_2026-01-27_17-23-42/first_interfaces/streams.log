@@ -1,0 +1,20 @@
+[0.022s] Invoking command in '/home/eilero/ros2_ws/src/build/first_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/first_interfaces -- -j16 -l16
+[0.072s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.106s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.268s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.281s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.299s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.321s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.387s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.401s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.404s] -- Found first_interfaces: 0.0.0 (/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake)
+[0.456s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.457s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.457s]   before
+[0.457s] Call Stack (most recent call first):
+[0.457s]   CMakeLists.txt:14 (ament_target_dependencies)
+[0.457s] 
+[0.457s] [0m
+[0.457s] -- Configuring incomplete, errors occurred!
+[0.465s] gmake: *** [Makefile:1355: cmake_check_build_system] Error 1
+[0.470s] Invoked command in '/home/eilero/ros2_ws/src/build/first_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/first_interfaces -- -j16 -l16

@@ -1,0 +1,17 @@
+/home/eilero/ros2_ws/install/subs_pubs/lib/subs_pubs/talker
+/home/eilero/ros2_ws/install/subs_pubs/lib/subs_pubs/listener
+/home/eilero/ros2_ws/install/subs_pubs/share/ament_index/resource_index/package_run_dependencies/subs_pubs
+/home/eilero/ros2_ws/install/subs_pubs/share/ament_index/resource_index/parent_prefix_path/subs_pubs
+/home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/ament_prefix_path.sh
+/home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/ament_prefix_path.dsv
+/home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/path.sh
+/home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/path.dsv
+/home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.bash
+/home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.sh
+/home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.zsh
+/home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.dsv
+/home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/package.dsv
+/home/eilero/ros2_ws/install/subs_pubs/share/ament_index/resource_index/packages/subs_pubs
+/home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/cmake/subs_pubsConfig.cmake
+/home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/cmake/subs_pubsConfig-version.cmake
+/home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/package.xml

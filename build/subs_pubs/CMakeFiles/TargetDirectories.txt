@@ -1,0 +1,11 @@
+/home/eilero/ros2_ws/build/subs_pubs/CMakeFiles/uninstall.dir
+/home/eilero/ros2_ws/build/subs_pubs/CMakeFiles/subs_pubs_uninstall.dir
+/home/eilero/ros2_ws/build/subs_pubs/CMakeFiles/talker.dir
+/home/eilero/ros2_ws/build/subs_pubs/CMakeFiles/listener.dir
+/home/eilero/ros2_ws/build/subs_pubs/CMakeFiles/test.dir
+/home/eilero/ros2_ws/build/subs_pubs/CMakeFiles/edit_cache.dir
+/home/eilero/ros2_ws/build/subs_pubs/CMakeFiles/rebuild_cache.dir
+/home/eilero/ros2_ws/build/subs_pubs/CMakeFiles/list_install_components.dir
+/home/eilero/ros2_ws/build/subs_pubs/CMakeFiles/install.dir
+/home/eilero/ros2_ws/build/subs_pubs/CMakeFiles/install/local.dir
+/home/eilero/ros2_ws/build/subs_pubs/CMakeFiles/install/strip.dir

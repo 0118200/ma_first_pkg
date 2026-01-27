@@ -1,0 +1,2 @@
+Invoking command in '/home/eilero/ros2_ws/src/build/first_interfaces': /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/first_interfaces -- -j16 -l16
+Invoked command in '/home/eilero/ros2_ws/src/build/first_interfaces' returned '2': /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/first_interfaces -- -j16 -l16

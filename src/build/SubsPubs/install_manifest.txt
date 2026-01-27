@@ -1,0 +1,15 @@
+/home/eilero/ros2_ws/src/install/SubsPubs/share/ament_index/resource_index/package_run_dependencies/SubsPubs
+/home/eilero/ros2_ws/src/install/SubsPubs/share/ament_index/resource_index/parent_prefix_path/SubsPubs
+/home/eilero/ros2_ws/src/install/SubsPubs/share/SubsPubs/environment/ament_prefix_path.sh
+/home/eilero/ros2_ws/src/install/SubsPubs/share/SubsPubs/environment/ament_prefix_path.dsv
+/home/eilero/ros2_ws/src/install/SubsPubs/share/SubsPubs/environment/path.sh
+/home/eilero/ros2_ws/src/install/SubsPubs/share/SubsPubs/environment/path.dsv
+/home/eilero/ros2_ws/src/install/SubsPubs/share/SubsPubs/local_setup.bash
+/home/eilero/ros2_ws/src/install/SubsPubs/share/SubsPubs/local_setup.sh
+/home/eilero/ros2_ws/src/install/SubsPubs/share/SubsPubs/local_setup.zsh
+/home/eilero/ros2_ws/src/install/SubsPubs/share/SubsPubs/local_setup.dsv
+/home/eilero/ros2_ws/src/install/SubsPubs/share/SubsPubs/package.dsv
+/home/eilero/ros2_ws/src/install/SubsPubs/share/ament_index/resource_index/packages/SubsPubs
+/home/eilero/ros2_ws/src/install/SubsPubs/share/SubsPubs/cmake/SubsPubsConfig.cmake
+/home/eilero/ros2_ws/src/install/SubsPubs/share/SubsPubs/cmake/SubsPubsConfig-version.cmake
+/home/eilero/ros2_ws/src/install/SubsPubs/share/SubsPubs/package.xml

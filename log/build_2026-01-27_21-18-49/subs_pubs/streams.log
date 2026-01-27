@@ -1,0 +1,18 @@
+[0.020s] Invoking command in '/home/eilero/ros2_ws/build/subs_pubs': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/build/subs_pubs -- -j16 -l16
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pubs.cpp.o[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subs.cpp.o[0m
+[0.344s] [01m[K/home/eilero/ros2_ws/src/subs_pubs/src/subs.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kfirst_interfaces/first_interfaces/msg/Num.hpp: No such file or directory
+[0.345s]     5 | #include [01;31m[K"first_interfaces/first_interfaces/msg/Num.hpp"[m[K
+[0.345s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.345s] compilation terminated.
+[0.345s] [01m[K/home/eilero/ros2_ws/src/subs_pubs/src/pubs.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kfirst_interfaces/first_interfaces/msg/Num.hpp: No such file or directory
+[0.345s]     5 | #include [01;31m[K"first_interfaces/first_interfaces/msg/Num.hpp"[m[K
+[0.345s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.345s] compilation terminated.
+[0.352s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/pubs.cpp.o] Error 1
+[0.352s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subs.cpp.o] Error 1
+[0.352s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[0.352s] gmake[1]: *** Waiting for unfinished jobs....
+[0.352s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[0.352s] gmake: *** [Makefile:146: all] Error 2
+[0.357s] Invoked command in '/home/eilero/ros2_ws/build/subs_pubs' returned '2': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/build/subs_pubs -- -j16 -l16

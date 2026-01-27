@@ -1,0 +1,45 @@
+[0.012s] Invoking command in '/home/eilero/ros2_ws/src/build/first_interfaces': /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/first_interfaces -- -j16 -l16
+[0.045s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.149s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.156s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.165s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.175s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.206s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.213s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.214s] -- Found first_interfaces: 0.0.0 (/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake)
+[0.239s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.266s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.267s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.321s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.506s] Error parsing '/home/eilero/ros2_ws/src/first_interfaces/package.xml':
+[0.506s] Traceback (most recent call last):
+[0.506s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.506s]     main()
+[0.506s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.507s]     raise e
+[0.507s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.507s]     package = parse_package_string(
+[0.507s]               ^^^^^^^^^^^^^^^^^^^^^
+[0.507s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.507s]     pkg.validate(warnings=warnings)
+[0.507s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.507s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.507s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/eilero/ros2_ws/src/first_interfaces/package.xml':
+[0.507s] The package "first_interfaces" must not "build_depend" on a package with the same name as this package
+[0.507s] The package "first_interfaces" must not "build_export_depend" on a package with the same name as this package
+[0.507s] The package "first_interfaces" must not "exec_depend" on a package with the same name as this package
+[0.539s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.539s]   execute_process(/usr/bin/python3
+[0.540s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.540s]   /home/eilero/ros2_ws/src/first_interfaces/package.xml
+[0.540s]   /home/eilero/ros2_ws/src/build/first_interfaces/ament_cmake_core/package.cmake)
+[0.540s]   returned error code 1
+[0.540s] Call Stack (most recent call first):
+[0.540s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.540s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[0.540s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[0.540s] 
+[0.540s] [0m
+[0.540s] -- Configuring incomplete, errors occurred!
+[0.550s] gmake: *** [Makefile:1355: cmake_check_build_system] Error 1
+[0.553s] Invoked command in '/home/eilero/ros2_ws/src/build/first_interfaces' returned '2': /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/first_interfaces -- -j16 -l16

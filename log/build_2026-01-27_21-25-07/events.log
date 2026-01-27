@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000784] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000839] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000868] (-) JobUnselected: {'identifier': 'first_interfaces'}
+[0.001032] (-) JobUnselected: {'identifier': 'pkg1'}
+[0.001150] (subs_pubs) JobQueued: {'identifier': 'subs_pubs', 'dependencies': OrderedDict({'first_interfaces': '/home/eilero/ros2_ws/install/first_interfaces'})}
+[0.001231] (subs_pubs) JobStarted: {'identifier': 'subs_pubs'}
+[0.017750] (subs_pubs) JobProgress: {'identifier': 'subs_pubs', 'progress': 'cmake'}
+[0.019277] (subs_pubs) JobProgress: {'identifier': 'subs_pubs', 'progress': 'build'}
+[0.020061] (subs_pubs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eilero/ros2_ws/build/subs_pubs', '--', '-j16', '-l16'], 'cwd': '/home/eilero/ros2_ws/build/subs_pubs', 'env': OrderedDict({'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/eilero/ros2_ws/install/first_interfaces/lib:/home/eilero/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/eilero/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/ros2_ws/install:/home/eilero/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/install/first_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/ros2_ws/build/subs_pubs', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/eilero/ros2_ws/install/first_interfaces/lib/python3.12/site-packages:/home/eilero/install/first_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.056345] (subs_pubs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099675] (-) TimerEvent: {}
+[0.200081] (-) TimerEvent: {}
+[0.235665] (subs_pubs) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.254311] (subs_pubs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.261031] (subs_pubs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.269569] (subs_pubs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.279845] (subs_pubs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300177] (-) TimerEvent: {}
+[0.332140] (subs_pubs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.333297] (subs_pubs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.383969] (subs_pubs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400304] (-) TimerEvent: {}
+[0.439772] (subs_pubs) StdoutLine: {'line': b'-- Found first_interfaces: 0.0.0 (/home/eilero/ros2_ws/install/first_interfaces/share/first_interfaces/cmake)\n'}
+[0.482626] (subs_pubs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.500435] (-) TimerEvent: {}
+[0.579054] (subs_pubs) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.579390] (subs_pubs) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.579532] (subs_pubs) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.579754] (subs_pubs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.580381] (subs_pubs) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.580536] (subs_pubs) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.580639] (subs_pubs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.581299] (subs_pubs) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[0.596609] (subs_pubs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.600544] (-) TimerEvent: {}
+[0.600773] (subs_pubs) StdoutLine: {'line': b'-- Build files have been written to: /home/eilero/ros2_ws/build/subs_pubs\n'}
+[0.653658] (subs_pubs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subs.cpp.o\x1b[0m\n'}
+[0.654018] (subs_pubs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/pubs.cpp.o\x1b[0m\n'}
+[0.700719] (-) TimerEvent: {}
+[0.801180] (-) TimerEvent: {}
+[0.899993] (subs_pubs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eilero/ros2_ws/src/subs_pubs/src/pubs.cpp:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kfirst_interfaces/msg/Num.hpp: No such file or directory\n'}
+[0.900436] (subs_pubs) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K"first_interfaces/msg/Num.hpp"\x1b[m\x1b[K\n'}
+[0.900586] (subs_pubs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.900712] (subs_pubs) StderrLine: {'line': b'compilation terminated.\n'}
+[0.900818] (subs_pubs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eilero/ros2_ws/src/subs_pubs/src/subs.cpp:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kfirst_interfaces/msg/Num.hpp: No such file or directory\n'}
+[0.900942] (subs_pubs) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K"first_interfaces/msg/Num.hpp"\x1b[m\x1b[K\n'}
+[0.900993] (subs_pubs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.901039] (subs_pubs) StderrLine: {'line': b'compilation terminated.\n'}
+[0.901245] (-) TimerEvent: {}
+[0.907485] (subs_pubs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/pubs.cpp.o] Error 1\n'}
+[0.907908] (subs_pubs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subs.cpp.o] Error 1\n'}
+[0.908045] (subs_pubs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[0.908141] (subs_pubs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.908223] (subs_pubs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[0.908276] (subs_pubs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.911856] (subs_pubs) CommandEnded: {'returncode': 2}
+[0.924946] (subs_pubs) JobEnded: {'identifier': 'subs_pubs', 'rc': 2}
+[0.935852] (-) EventReactorShutdown: {}

@@ -1,0 +1,378 @@
+[0.000000] (-) TimerEvent: {}
+[0.001141] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001193] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001230] (-) JobUnselected: {'identifier': 'pkg1'}
+[0.001303] (first_interfaces) JobQueued: {'identifier': 'first_interfaces', 'dependencies': OrderedDict()}
+[0.001344] (first_interfaces) JobStarted: {'identifier': 'first_interfaces'}
+[0.019630] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'cmake'}
+[0.020710] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/eilero/ros2_ws/src/first_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/eilero/ros2_ws/src/install/first_interfaces'], 'cwd': '/home/eilero/ros2_ws/src/build/first_interfaces', 'env': OrderedDict({'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/ros2_ws/src/install:/home/eilero/ros2_ws/install:/home/eilero/install:/home/eilero/ros2_ws/src/first_interfaces/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/ros2_ws/src/first_interfaces/install/first_interfaces:/home/eilero/ros2_ws/src/install/cpp_srvcli:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/ros2_ws/src/install/pkg1:/home/eilero/ros2_ws/src/install/cpp_pubsub:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/ros2_ws/src/build/first_interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/ros2_ws/src/first_interfaces/install/first_interfaces:/home/eilero/ros2_ws/src/install/cpp_srvcli:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/ros2_ws/src/install/pkg1:/home/eilero/ros2_ws/src/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.047581] (first_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.099373] (-) TimerEvent: {}
+[0.199870] (-) TimerEvent: {}
+[0.300380] (-) TimerEvent: {}
+[0.397318] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.400799] (-) TimerEvent: {}
+[0.412672] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.430871] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.452184] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500946] (-) TimerEvent: {}
+[0.519304] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.532795] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.601104] (-) TimerEvent: {}
+[0.701534] (-) TimerEvent: {}
+[0.802009] (-) TimerEvent: {}
+[0.902504] (-) TimerEvent: {}
+[1.002985] (-) TimerEvent: {}
+[1.103486] (-) TimerEvent: {}
+[1.203997] (-) TimerEvent: {}
+[1.304556] (-) TimerEvent: {}
+[1.405012] (-) TimerEvent: {}
+[1.452894] (first_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.505158] (-) TimerEvent: {}
+[1.605609] (-) TimerEvent: {}
+[1.706126] (-) TimerEvent: {}
+[1.806671] (-) TimerEvent: {}
+[1.907140] (-) TimerEvent: {}
+[2.007630] (-) TimerEvent: {}
+[2.108012] (-) TimerEvent: {}
+[2.208431] (-) TimerEvent: {}
+[2.297072] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.308525] (-) TimerEvent: {}
+[2.408787] (-) TimerEvent: {}
+[2.509077] (-) TimerEvent: {}
+[2.531058] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.534966] (first_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.609182] (-) TimerEvent: {}
+[2.634475] (first_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.709282] (-) TimerEvent: {}
+[2.809526] (-) TimerEvent: {}
+[2.909799] (-) TimerEvent: {}
+[2.964648] (first_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.009899] (-) TimerEvent: {}
+[3.015571] (first_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.049302] (first_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.049730] (first_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.049831] (first_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.051869] (first_interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.051990] (first_interfaces) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[3.055309] (first_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.057303] (first_interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.068780] (first_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.068918] (first_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.070739] (first_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.073510] (first_interfaces) StdoutLine: {'line': b'-- Configuring done (3.0s)\n'}
+[3.110011] (-) TimerEvent: {}
+[3.110876] (first_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.120207] (first_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/eilero/ros2_ws/src/build/first_interfaces\n'}
+[3.128129] (first_interfaces) CommandEnded: {'returncode': 0}
+[3.128782] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'build'}
+[3.129434] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eilero/ros2_ws/src/build/first_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/eilero/ros2_ws/src/build/first_interfaces', 'env': OrderedDict({'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/ros2_ws/src/install:/home/eilero/ros2_ws/install:/home/eilero/install:/home/eilero/ros2_ws/src/first_interfaces/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/ros2_ws/src/first_interfaces/install/first_interfaces:/home/eilero/ros2_ws/src/install/cpp_srvcli:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/ros2_ws/src/install/pkg1:/home/eilero/ros2_ws/src/install/cpp_pubsub:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/ros2_ws/src/build/first_interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/ros2_ws/src/first_interfaces/install/first_interfaces:/home/eilero/ros2_ws/src/install/cpp_srvcli:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/ros2_ws/src/install/pkg1:/home/eilero/ros2_ws/src/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.180413] (first_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[3.188605] (first_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_first_interfaces\n'}
+[3.210135] (-) TimerEvent: {}
+[3.310449] (-) TimerEvent: {}
+[3.330270] (first_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.330887] (first_interfaces) StdoutLine: {'line': b'creating first_interfaces.egg-info\n'}
+[3.335360] (first_interfaces) StdoutLine: {'line': b'[  1%] Built target first_interfaces__rosidl_generator_type_description\n'}
+[3.341570] (first_interfaces) StdoutLine: {'line': b'writing first_interfaces.egg-info/PKG-INFO\n'}
+[3.341810] (first_interfaces) StdoutLine: {'line': b'writing dependency_links to first_interfaces.egg-info/dependency_links.txt\n'}
+[3.341988] (first_interfaces) StdoutLine: {'line': b'writing top-level names to first_interfaces.egg-info/top_level.txt\n'}
+[3.342090] (first_interfaces) StdoutLine: {'line': b"writing manifest file 'first_interfaces.egg-info/SOURCES.txt'\n"}
+[3.346843] (first_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.358164] (first_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.372598] (first_interfaces) StdoutLine: {'line': b"reading manifest file 'first_interfaces.egg-info/SOURCES.txt'\n"}
+[3.372986] (first_interfaces) StdoutLine: {'line': b"writing manifest file 'first_interfaces.egg-info/SOURCES.txt'\n"}
+[3.398505] (first_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_first_interfaces_egg\n'}
+[3.410572] (-) TimerEvent: {}
+[3.510872] (-) TimerEvent: {}
+[3.600719] (first_interfaces) StdoutLine: {'line': b'[  5%] Built target first_interfaces__cpp\n'}
+[3.612860] (-) TimerEvent: {}
+[3.648217] (first_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[3.648562] (first_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[3.648693] (first_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[3.648846] (first_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[3.649020] (first_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[3.649234] (first_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/msg/detail/num__description.c.o\x1b[0m\n'}
+[3.649439] (first_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[3.649564] (first_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/msg/detail/sphere__description.c.o\x1b[0m\n'}
+[3.649715] (first_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/srv/detail/add_three_ints__description.c.o\x1b[0m\n'}
+[3.712988] (-) TimerEvent: {}
+[3.715925] (first_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libfirst_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.753757] (first_interfaces) StdoutLine: {'line': b'[ 24%] Built target first_interfaces__rosidl_generator_c\n'}
+[3.763948] (first_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.764188] (first_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.764350] (first_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.764422] (first_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.764496] (first_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.764614] (first_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.813094] (-) TimerEvent: {}
+[3.913400] (-) TimerEvent: {}
+[3.993295] (first_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/first_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[3.993527] (first_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/first_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[3.993614] (first_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/first_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.993691] (first_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/first_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.994169] (first_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/first_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[3.994706] (first_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/first_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.013509] (-) TimerEvent: {}
+[4.037263] (first_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[4.037517] (first_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.037816] (first_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_interfaces/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[4.058356] (first_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[4.059134] (first_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[4.059334] (first_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[4.064020] (first_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.107445] (first_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/first_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[4.107726] (first_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/first_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[4.107844] (first_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/first_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.114732] (-) TimerEvent: {}
+[4.126502] (first_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libfirst_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.135994] (first_interfaces) StdoutLine: {'line': b'[ 66%] Built target first_interfaces__rosidl_typesupport_c\n'}
+[4.143018] (first_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/first_interfaces/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[4.143329] (first_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/first_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[4.143496] (first_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/first_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[4.182284] (first_interfaces) StdoutLine: {'line': b'[ 72%] Built target first_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.214862] (-) TimerEvent: {}
+[4.315260] (-) TimerEvent: {}
+[4.415679] (-) TimerEvent: {}
+[4.485989] (first_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.515818] (-) TimerEvent: {}
+[4.524331] (first_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.597792] (first_interfaces) StdoutLine: {'line': b'[ 75%] Built target first_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.615948] (-) TimerEvent: {}
+[4.617656] (first_interfaces) StdoutLine: {'line': b'[ 75%] Built target first_interfaces__rosidl_typesupport_cpp\n'}
+[4.701790] (first_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.716063] (-) TimerEvent: {}
+[4.752680] (first_interfaces) StdoutLine: {'line': b'[ 77%] Built target first_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.774678] (first_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.816205] (-) TimerEvent: {}
+[4.840415] (first_interfaces) StdoutLine: {'line': b'[ 79%] Built target first_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.861159] (first_interfaces) StdoutLine: {'line': b'[ 79%] Built target first_interfaces\n'}
+[4.881289] (first_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.916316] (-) TimerEvent: {}
+[5.016610] (-) TimerEvent: {}
+[5.116903] (-) TimerEvent: {}
+[5.193525] (first_interfaces) StdoutLine: {'line': b'[ 81%] Built target first_interfaces__py\n'}
+[5.214329] (first_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_py.dir/rosidl_generator_py/first_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[5.214581] (first_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_py.dir/rosidl_generator_py/first_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[5.214695] (first_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_py.dir/rosidl_generator_py/first_interfaces/msg/_sphere_s.c.o\x1b[0m\n'}
+[5.216989] (-) TimerEvent: {}
+[5.317241] (-) TimerEvent: {}
+[5.356151] (first_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library libfirst_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[5.401244] (first_interfaces) StdoutLine: {'line': b'[ 88%] Built target first_interfaces__rosidl_generator_py\n'}
+[5.417372] (-) TimerEvent: {}
+[5.421400] (first_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/first_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.421704] (first_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/first_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.421796] (first_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/first_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.517098] (first_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/first_interfaces/first_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.517371] (-) TimerEvent: {}
+[5.517489] (first_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.519102] (first_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.547682] (first_interfaces) StdoutLine: {'line': b'[100%] Built target first_interfaces_s__rosidl_typesupport_c\n'}
+[5.547949] (first_interfaces) StdoutLine: {'line': b'[100%] Built target first_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[5.549742] (first_interfaces) StdoutLine: {'line': b'[100%] Built target first_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[5.563697] (first_interfaces) CommandEnded: {'returncode': 0}
+[5.564404] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'install'}
+[5.574287] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eilero/ros2_ws/src/build/first_interfaces'], 'cwd': '/home/eilero/ros2_ws/src/build/first_interfaces', 'env': OrderedDict({'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/ros2_ws/src/install:/home/eilero/ros2_ws/install:/home/eilero/install:/home/eilero/ros2_ws/src/first_interfaces/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/ros2_ws/src/first_interfaces/install/first_interfaces:/home/eilero/ros2_ws/src/install/cpp_srvcli:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/ros2_ws/src/install/pkg1:/home/eilero/ros2_ws/src/install/cpp_pubsub:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/ros2_ws/src/build/first_interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/ros2_ws/src/first_interfaces/install/first_interfaces:/home/eilero/ros2_ws/src/install/cpp_srvcli:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/ros2_ws/src/install/pkg1:/home/eilero/ros2_ws/src/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.582107] (first_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.582401] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/ament_index/resource_index/rosidl_interfaces/first_interfaces\n'}
+[5.582624] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/msg/Num.json\n'}
+[5.582751] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/msg/Sphere.json\n'}
+[5.582942] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/srv/AddThreeInts.json\n'}
+[5.583022] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces\n'}
+[5.583103] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv\n'}
+[5.583172] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/add_three_ints.h\n'}
+[5.583242] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail\n'}
+[5.583308] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[5.583382] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__description.c\n'}
+[5.583504] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[5.583631] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[5.583738] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[5.583835] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[5.583937] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg\n'}
+[5.584017] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/sphere.h\n'}
+[5.584089] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/num.h\n'}
+[5.584181] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail\n'}
+[5.584270] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__functions.c\n'}
+[5.584376] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__functions.h\n'}
+[5.584492] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__type_support.c\n'}
+[5.584598] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__functions.h\n'}
+[5.584701] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__type_support.h\n'}
+[5.584801] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__struct.h\n'}
+[5.584900] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__struct.h\n'}
+[5.585026] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__functions.c\n'}
+[5.585119] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__type_support.h\n'}
+[5.585239] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__type_support.c\n'}
+[5.585450] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__description.c\n'}
+[5.585609] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__description.c\n'}
+[5.585728] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.585867] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/environment/library_path.sh\n'}
+[5.585980] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/environment/library_path.dsv\n'}
+[5.586111] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_c.so\n'}
+[5.586395] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_c.so" to ""\n'}
+[5.586573] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces\n'}
+[5.586631] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv\n'}
+[5.586681] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail\n'}
+[5.586730] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[5.586797] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg\n'}
+[5.586850] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.586910] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail\n'}
+[5.586954] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[5.586999] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[5.587057] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.587320] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.587386] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces\n'}
+[5.587431] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv\n'}
+[5.587494] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/add_three_ints.hpp\n'}
+[5.587552] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail\n'}
+[5.587603] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__type_support.hpp\n'}
+[5.587694] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[5.587791] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[5.587885] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[5.587992] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg\n'}
+[5.588051] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.588133] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/sphere.hpp\n'}
+[5.588238] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/num.hpp\n'}
+[5.588341] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail\n'}
+[5.588398] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__traits.hpp\n'}
+[5.588489] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__type_support.hpp\n'}
+[5.588591] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__builder.hpp\n'}
+[5.588693] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__builder.hpp\n'}
+[5.588796] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__traits.hpp\n'}
+[5.588898] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__type_support.hpp\n'}
+[5.589030] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__struct.hpp\n'}
+[5.589126] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__struct.hpp\n'}
+[5.589243] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces\n'}
+[5.589333] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv\n'}
+[5.589387] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail\n'}
+[5.589455] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.589532] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/dds_fastrtps\n'}
+[5.589606] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg\n'}
+[5.589654] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.589725] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail\n'}
+[5.589775] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.589837] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.589927] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/dds_fastrtps\n'}
+[5.590023] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.590416] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.590489] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces\n'}
+[5.590549] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv\n'}
+[5.590614] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail\n'}
+[5.590657] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[5.590746] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[5.590847] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg\n'}
+[5.590909] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.590981] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail\n'}
+[5.591046] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__type_support.c\n'}
+[5.591153] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[5.591270] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__type_support.c\n'}
+[5.591393] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[5.591527] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.591831] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.591918] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_c.so\n'}
+[5.592109] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[5.592198] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces\n'}
+[5.592263] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv\n'}
+[5.592329] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail\n'}
+[5.592383] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[5.592443] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.592505] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg\n'}
+[5.592576] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail\n'}
+[5.592627] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.592687] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.592747] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[5.592855] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/include/first_interfaces/first_interfaces/msg/detail/num__type_support.cpp\n'}
+[5.592999] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.593361] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.593434] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.593727] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[5.593789] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/environment/pythonpath.sh\n'}
+[5.593879] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/environment/pythonpath.dsv\n'}
+[5.593993] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces-0.0.0-py3.12.egg-info\n'}
+[5.594117] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[5.594227] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[5.594434] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[5.594538] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[5.594681] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces\n'}
+[5.594758] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_c.so\n'}
+[5.594885] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.595007] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv\n'}
+[5.595079] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv/_add_three_ints.py\n'}
+[5.595201] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv/__init__.py\n'}
+[5.595319] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv/_add_three_ints_s.c\n'}
+[5.595423] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg\n'}
+[5.595495] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg/_num_s.c\n'}
+[5.595598] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg/_num.py\n'}
+[5.595704] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg/_sphere.py\n'}
+[5.595807] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg/__init__.py\n'}
+[5.595906] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg/_sphere_s.c\n'}
+[5.596014] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/__init__.py\n'}
+[5.596106] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.596232] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.596355] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.596476] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[5.617496] (-) TimerEvent: {}
+[5.629402] (first_interfaces) StdoutLine: {'line': b"Listing '/home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces'...\n"}
+[5.629641] (first_interfaces) StdoutLine: {'line': b"Compiling '/home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/__init__.py'...\n"}
+[5.629759] (first_interfaces) StdoutLine: {'line': b"Listing '/home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg'...\n"}
+[5.629857] (first_interfaces) StdoutLine: {'line': b"Compiling '/home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg/__init__.py'...\n"}
+[5.629950] (first_interfaces) StdoutLine: {'line': b"Compiling '/home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg/_num.py'...\n"}
+[5.630043] (first_interfaces) StdoutLine: {'line': b"Compiling '/home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/msg/_sphere.py'...\n"}
+[5.630137] (first_interfaces) StdoutLine: {'line': b"Listing '/home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv'...\n"}
+[5.630239] (first_interfaces) StdoutLine: {'line': b"Compiling '/home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv/__init__.py'...\n"}
+[5.630356] (first_interfaces) StdoutLine: {'line': b"Compiling '/home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv/_add_three_ints.py'...\n"}
+[5.634330] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.634759] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.634996] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[5.635255] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.635505] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_c.so\n'}
+[5.635782] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[5.635889] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_py.so\n'}
+[5.636139] (first_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/src/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_py.so" to ""\n'}
+[5.636235] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/msg/Num.idl\n'}
+[5.636335] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/msg/Sphere.idl\n'}
+[5.636491] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/srv/AddThreeInts.idl\n'}
+[5.636598] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/msg/Num.msg\n'}
+[5.636722] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/msg/Sphere.msg\n'}
+[5.636852] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/srv/AddThreeInts.srv\n'}
+[5.637029] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/ament_index/resource_index/package_run_dependencies/first_interfaces\n'}
+[5.637238] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/ament_index/resource_index/parent_prefix_path/first_interfaces\n'}
+[5.637384] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.sh\n'}
+[5.637490] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.dsv\n'}
+[5.637615] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/environment/path.sh\n'}
+[5.637740] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/environment/path.dsv\n'}
+[5.637869] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/local_setup.bash\n'}
+[5.637969] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/local_setup.sh\n'}
+[5.638092] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/local_setup.zsh\n'}
+[5.638211] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/local_setup.dsv\n'}
+[5.638347] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/package.dsv\n'}
+[5.638517] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/ament_index/resource_index/packages/first_interfaces\n'}
+[5.638705] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_generator_cExport.cmake\n'}
+[5.638851] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.638987] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.639119] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.639275] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_generator_cppExport.cmake\n'}
+[5.639426] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.639553] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.639670] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.639797] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.639931] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[5.640101] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.640309] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.640480] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.640612] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[5.640746] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.640888] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_generator_pyExport.cmake\n'}
+[5.641010] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.641140] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.641276] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.641417] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.641579] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.641696] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.641781] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.641841] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.641905] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig.cmake\n'}
+[5.642001] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig-version.cmake\n'}
+[5.642117] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/package.xml\n'}
+[5.644756] (first_interfaces) CommandEnded: {'returncode': 0}
+[5.661118] (first_interfaces) JobEnded: {'identifier': 'first_interfaces', 'rc': 0}
+[5.662130] (-) EventReactorShutdown: {}

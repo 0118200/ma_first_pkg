@@ -1,0 +1,15 @@
+/home/eilero/ros2_ws/src/install/subpub/share/ament_index/resource_index/package_run_dependencies/subpub
+/home/eilero/ros2_ws/src/install/subpub/share/ament_index/resource_index/parent_prefix_path/subpub
+/home/eilero/ros2_ws/src/install/subpub/share/subpub/environment/ament_prefix_path.sh
+/home/eilero/ros2_ws/src/install/subpub/share/subpub/environment/ament_prefix_path.dsv
+/home/eilero/ros2_ws/src/install/subpub/share/subpub/environment/path.sh
+/home/eilero/ros2_ws/src/install/subpub/share/subpub/environment/path.dsv
+/home/eilero/ros2_ws/src/install/subpub/share/subpub/local_setup.bash
+/home/eilero/ros2_ws/src/install/subpub/share/subpub/local_setup.sh
+/home/eilero/ros2_ws/src/install/subpub/share/subpub/local_setup.zsh
+/home/eilero/ros2_ws/src/install/subpub/share/subpub/local_setup.dsv
+/home/eilero/ros2_ws/src/install/subpub/share/subpub/package.dsv
+/home/eilero/ros2_ws/src/install/subpub/share/ament_index/resource_index/packages/subpub
+/home/eilero/ros2_ws/src/install/subpub/share/subpub/cmake/subpubConfig.cmake
+/home/eilero/ros2_ws/src/install/subpub/share/subpub/cmake/subpubConfig-version.cmake
+/home/eilero/ros2_ws/src/install/subpub/share/subpub/package.xml

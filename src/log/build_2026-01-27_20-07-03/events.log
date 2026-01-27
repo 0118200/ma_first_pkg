@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000299] (-) JobUnselected: {'identifier': 'SubsPubs'}
+[0.000325] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000338] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000347] (-) JobUnselected: {'identifier': 'first_interfaces'}
+[0.000356] (-) JobUnselected: {'identifier': 'pkg1'}
+[0.000366] (-) EventReactorShutdown: {}

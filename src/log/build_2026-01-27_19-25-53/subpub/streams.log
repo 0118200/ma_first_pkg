@@ -1,0 +1,22 @@
+[0.016s] Invoking command in '/home/eilero/ros2_ws/src/build/subpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/subpub -- -j16 -l16
+[0.047s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.211s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.247s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.260s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.358s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.362s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.449s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.463s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.481s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.548s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.548s]   ament_target_dependencies() the passed package name 'std_msgs' was not
+[0.548s]   found before
+[0.548s] Call Stack (most recent call first):
+[0.548s]   CMakeLists.txt:13 (ament_target_dependencies)
+[0.548s] 
+[0.548s] [0m
+[0.548s] -- Configuring incomplete, errors occurred!
+[0.558s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.561s] Invoked command in '/home/eilero/ros2_ws/src/build/subpub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/subpub -- -j16 -l16

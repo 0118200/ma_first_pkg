@@ -1,0 +1,20 @@
+[100%] Built target listener
+[100%] Built target talker
+-- Install configuration: ""
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/lib/subs_pubs/talker
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/lib/subs_pubs/listener
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/share/ament_index/resource_index/package_run_dependencies/subs_pubs
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/share/ament_index/resource_index/parent_prefix_path/subs_pubs
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/ament_prefix_path.sh
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/path.sh
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/path.dsv
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.bash
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.sh
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.zsh
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.dsv
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/package.dsv
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/share/ament_index/resource_index/packages/subs_pubs
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/cmake/subs_pubsConfig.cmake
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/cmake/subs_pubsConfig-version.cmake
+-- Up-to-date: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/package.xml

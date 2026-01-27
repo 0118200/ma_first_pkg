@@ -1,0 +1,61 @@
+[0.020s] Invoking command in '/home/eilero/ros2_ws/src/build/first_interfaces': /usr/bin/cmake /home/eilero/ros2_ws/src/first_interfaces -DCMAKE_INSTALL_PREFIX=/home/eilero/ros2_ws/src/install/first_interfaces
+[0.122s] -- The C compiler identification is GNU 13.3.0
+[0.222s] -- The CXX compiler identification is GNU 13.3.0
+[0.251s] -- Detecting C compiler ABI info
+[0.414s] -- Detecting C compiler ABI info - done
+[0.428s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.428s] -- Detecting C compile features
+[0.429s] -- Detecting C compile features - done
+[0.446s] -- Detecting CXX compiler ABI info
+[0.646s] -- Detecting CXX compiler ABI info - done
+[0.661s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.661s] -- Detecting CXX compile features
+[0.662s] -- Detecting CXX compile features - done
+[0.669s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.909s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.122s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.212s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.241s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.275s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.414s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.452s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.757s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[1.757s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.757s]   first_interfaces --arguments-file
+[1.757s]   /home/eilero/ros2_ws/src/build/first_interfaces/rosidl_adapter__arguments__first_interfaces.json
+[1.758s]   --output-dir
+[1.758s]   /home/eilero/ros2_ws/src/build/first_interfaces/rosidl_adapter/first_interfaces
+[1.758s]   --output-file
+[1.758s]   /home/eilero/ros2_ws/src/build/first_interfaces/rosidl_adapter/first_interfaces.idls)
+[1.758s]   returned error code 1:
+[1.758s] 
+[1.758s]   Traceback (most recent call last):
+[1.758s] 
+[1.758s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[1.758s]     File "<frozen runpy>", line 88, in _run_code
+[1.758s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.758s]       sys.exit(main())
+[1.759s]                ^^^^^^
+[1.759s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.759s]       abs_idl_file = convert_to_idl(
+[1.759s]                      ^^^^^^^^^^^^^^^
+[1.759s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[1.759s]       return convert_srv_to_idl(
+[1.759s]              ^^^^^^^^^^^^^^^^^^^
+[1.759s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[1.759s]       srv = parse_service_string(package_name, input_file.stem, content)
+[1.759s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.759s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 851, in parse_service_string
+[1.759s]       raise InvalidServiceSpecification(
+[1.760s] 
+[1.760s]   rosidl_adapter.parser.InvalidServiceSpecification: Could not find separator
+[1.760s]   '---' between request and response
+[1.760s] 
+[1.760s] Call Stack (most recent call first):
+[1.760s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[1.760s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[1.760s] 
+[1.760s] [0m
+[1.760s] -- Configuring incomplete, errors occurred!
+[1.771s] Invoked command in '/home/eilero/ros2_ws/src/build/first_interfaces' returned '1': /usr/bin/cmake /home/eilero/ros2_ws/src/first_interfaces -DCMAKE_INSTALL_PREFIX=/home/eilero/ros2_ws/src/install/first_interfaces

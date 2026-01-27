@@ -1,0 +1,26 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subs.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pubs.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 75%] Built target talker
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/lib/subs_pubs/talker
+-- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/install/subs_pubs/lib/subs_pubs/talker" to ""
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/lib/subs_pubs/listener
+-- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/install/subs_pubs/lib/subs_pubs/listener" to ""
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/ament_index/resource_index/package_run_dependencies/subs_pubs
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/ament_index/resource_index/parent_prefix_path/subs_pubs
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/ament_prefix_path.sh
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/ament_prefix_path.dsv
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/path.sh
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/environment/path.dsv
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.bash
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.sh
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.zsh
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/local_setup.dsv
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/package.dsv
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/ament_index/resource_index/packages/subs_pubs
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/cmake/subs_pubsConfig.cmake
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/cmake/subs_pubsConfig-version.cmake
+-- Installing: /home/eilero/ros2_ws/install/subs_pubs/share/subs_pubs/package.xml

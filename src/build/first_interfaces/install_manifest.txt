@@ -1,0 +1,15 @@
+/home/eilero/ros2_ws/src/install/first_interfaces/share/ament_index/resource_index/package_run_dependencies/first_interfaces
+/home/eilero/ros2_ws/src/install/first_interfaces/share/ament_index/resource_index/parent_prefix_path/first_interfaces
+/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.sh
+/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.dsv
+/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/environment/path.sh
+/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/environment/path.dsv
+/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/local_setup.bash
+/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/local_setup.sh
+/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/local_setup.zsh
+/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/local_setup.dsv
+/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/package.dsv
+/home/eilero/ros2_ws/src/install/first_interfaces/share/ament_index/resource_index/packages/first_interfaces
+/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig.cmake
+/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig-version.cmake
+/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/package.xml

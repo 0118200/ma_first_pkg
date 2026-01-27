@@ -1,0 +1,56 @@
+[0.021s] Invoking command in '/home/eilero/ros2_ws/build/subs_pubs': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /home/eilero/ros2_ws/src/subs_pubs -DCMAKE_INSTALL_PREFIX=/home/eilero/ros2_ws/install/subs_pubs
+[0.085s] -- The C compiler identification is GNU 13.3.0
+[0.149s] -- The CXX compiler identification is GNU 13.3.0
+[0.169s] -- Detecting C compiler ABI info
+[0.278s] -- Detecting C compiler ABI info - done
+[0.285s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.285s] -- Detecting C compile features
+[0.285s] -- Detecting C compile features - done
+[0.296s] -- Detecting CXX compiler ABI info
+[0.406s] -- Detecting CXX compiler ABI info - done
+[0.419s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.419s] -- Detecting CXX compile features
+[0.420s] -- Detecting CXX compile features - done
+[0.423s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.540s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.639s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.671s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.682s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.695s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.711s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.779s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.781s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.873s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.887s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.909s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.970s] -- Found first_interfaces: 0.0.0 (/home/eilero/ros2_ws/install/first_interfaces/share/first_interfaces/cmake)
+[1.025s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.110s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.110s] -- Configured cppcheck include dirs: 
+[1.110s] -- Configured cppcheck exclude dirs and/or files: 
+[1.110s] -- Added test 'lint_cmake' to check CMake code style
+[1.111s] -- Added test 'uncrustify' to check C / C++ code style
+[1.112s] -- Configured uncrustify additional arguments: 
+[1.112s] -- Added test 'xmllint' to check XML markup files
+[1.117s] -- Configuring done (1.1s)
+[1.132s] -- Generating done (0.0s)
+[1.136s] -- Build files have been written to: /home/eilero/ros2_ws/build/subs_pubs
+[1.149s] Invoked command in '/home/eilero/ros2_ws/build/subs_pubs' returned '0': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /home/eilero/ros2_ws/src/subs_pubs -DCMAKE_INSTALL_PREFIX=/home/eilero/ros2_ws/install/subs_pubs
+[1.151s] Invoking command in '/home/eilero/ros2_ws/build/subs_pubs': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/build/subs_pubs -- -j16 -l16
+[1.211s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subs.cpp.o[0m
+[1.211s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pubs.cpp.o[0m
+[1.469s] [01m[K/home/eilero/ros2_ws/src/subs_pubs/src/subs.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kfirst_interfaces/msg/Num.hpp: No such file or directory
+[1.469s]     5 | #include [01;31m[K"first_interfaces/msg/Num.hpp"[m[K
+[1.470s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.470s] compilation terminated.
+[1.470s] [01m[K/home/eilero/ros2_ws/src/subs_pubs/src/pubs.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kfirst_interfaces/msg/Num.hpp: No such file or directory
+[1.470s]     5 | #include [01;31m[K"first_interfaces/msg/Num.hpp"[m[K
+[1.470s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.470s] compilation terminated.
+[1.477s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subs.cpp.o] Error 1
+[1.477s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/pubs.cpp.o] Error 1
+[1.477s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[1.478s] gmake[1]: *** Waiting for unfinished jobs....
+[1.478s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[1.478s] gmake: *** [Makefile:146: all] Error 2
+[1.482s] Invoked command in '/home/eilero/ros2_ws/build/subs_pubs' returned '2': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/build/subs_pubs -- -j16 -l16

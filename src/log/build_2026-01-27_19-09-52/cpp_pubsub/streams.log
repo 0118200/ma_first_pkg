@@ -1,0 +1,43 @@
+[0.018s] Invoking command in '/home/eilero/ros2_ws/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/cpp_pubsub -- -j16 -l16
+[0.048s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.210s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.228s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.234s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.253s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.272s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.315s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.316s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.367s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.486s] -- Configuring done (0.4s)
+[0.490s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[0.490s]   Cannot find source file:
+[0.490s] 
+[0.490s]     src/publisher_lambda_function.cpp
+[0.490s] 
+[0.490s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.490s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.490s]   .f95 .f03 .hip .ispc
+[0.491s] 
+[0.491s] [0m
+[0.491s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[0.491s]   Cannot find source file:
+[0.491s] 
+[0.491s]     src/subscriber_lambda_function.cpp
+[0.491s] 
+[0.491s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.491s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.491s]   .f95 .f03 .hip .ispc
+[0.491s] 
+[0.491s] [0m
+[0.491s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[0.491s]   No SOURCES given to target: talker
+[0.491s] 
+[0.492s] [0m
+[0.492s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[0.492s]   No SOURCES given to target: listener
+[0.492s] 
+[0.492s] [0m
+[0.492s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.499s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.503s] Invoked command in '/home/eilero/ros2_ws/src/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/cpp_pubsub -- -j16 -l16

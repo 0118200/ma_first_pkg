@@ -1,0 +1,2 @@
+Invoking command in '/home/eilero/ros2_ws/src/build/first_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/first_interfaces -- -j16 -l16
+Invoked command in '/home/eilero/ros2_ws/src/build/first_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/first_interfaces -- -j16 -l16

@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000662] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000718] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000754] (-) JobUnselected: {'identifier': 'pkg1'}
+[0.000812] (first_interfaces) JobQueued: {'identifier': 'first_interfaces', 'dependencies': OrderedDict()}
+[0.000860] (first_interfaces) JobStarted: {'identifier': 'first_interfaces'}
+[0.011404] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'cmake'}
+[0.012754] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'build'}
+[0.012877] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eilero/ros2_ws/src/build/first_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/eilero/ros2_ws/src/build/first_interfaces', 'env': OrderedDict({'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/eilero/ros2_ws/src/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/ros2_ws/src/install:/home/eilero/ros2_ws/install:/home/eilero/install:/home/eilero/ros2_ws/src/first_interfaces/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/ros2_ws/src/install/first_interfaces:/home/eilero/ros2_ws/src/first_interfaces/install/first_interfaces:/home/eilero/ros2_ws/src/install/cpp_srvcli:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/ros2_ws/src/install/pkg1:/home/eilero/ros2_ws/src/install/cpp_pubsub:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/ros2_ws/src/build/first_interfaces', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/eilero/ros2_ws/src/install/first_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/ros2_ws/src/install/first_interfaces:/home/eilero/ros2_ws/src/first_interfaces/install/first_interfaces:/home/eilero/ros2_ws/src/install/cpp_srvcli:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/ros2_ws/src/install/pkg1:/home/eilero/ros2_ws/src/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.043820] (first_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.099754] (-) TimerEvent: {}
+[0.144543] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.151308] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.160096] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.170242] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199850] (-) TimerEvent: {}
+[0.201017] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.208406] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.210095] (first_interfaces) StdoutLine: {'line': b'-- Found first_interfaces: 0.0.0 (/home/eilero/ros2_ws/src/install/first_interfaces/share/first_interfaces/cmake)\n'}
+[0.235034] (first_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.262939] (first_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.264071] (first_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299970] (-) TimerEvent: {}
+[0.316188] (first_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400124] (-) TimerEvent: {}
+[0.500536] (-) TimerEvent: {}
+[0.502783] (first_interfaces) StderrLine: {'line': b"Error parsing '/home/eilero/ros2_ws/src/first_interfaces/package.xml':\n"}
+[0.503142] (first_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.503205] (first_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[0.503255] (first_interfaces) StderrLine: {'line': b'    main()\n'}
+[0.503299] (first_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[0.503342] (first_interfaces) StderrLine: {'line': b'    raise e\n'}
+[0.503413] (first_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[0.503463] (first_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.503512] (first_interfaces) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[0.503563] (first_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string\n'}
+[0.503605] (first_interfaces) StderrLine: {'line': b'    pkg.validate(warnings=warnings)\n'}
+[0.503648] (first_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate\n'}
+[0.503693] (first_interfaces) StderrLine: {'line': b"    raise InvalidPackage('\\n'.join(errors), self.filename)\n"}
+[0.503737] (first_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/eilero/ros2_ws/src/first_interfaces/package.xml':\n"}
+[0.503793] (first_interfaces) StderrLine: {'line': b'The package "first_interfaces" must not "build_depend" on a package with the same name as this package\n'}
+[0.503838] (first_interfaces) StderrLine: {'line': b'The package "first_interfaces" must not "build_export_depend" on a package with the same name as this package\n'}
+[0.503884] (first_interfaces) StderrLine: {'line': b'The package "first_interfaces" must not "exec_depend" on a package with the same name as this package\n'}
+[0.525021] (first_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[0.525364] (first_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.526056] (first_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.526569] (first_interfaces) StderrLine: {'line': b'  /home/eilero/ros2_ws/src/first_interfaces/package.xml\n'}
+[0.526982] (first_interfaces) StderrLine: {'line': b'  /home/eilero/ros2_ws/src/build/first_interfaces/ament_cmake_core/package.cmake)\n'}
+[0.527119] (first_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[0.527230] (first_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.527355] (first_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.527464] (first_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)\n'}
+[0.527601] (first_interfaces) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[0.527717] (first_interfaces) StderrLine: {'line': b'\n'}
+[0.527823] (first_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.527916] (first_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.537434] (first_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:1355: cmake_check_build_system] Error 1\n'}
+[0.540681] (first_interfaces) CommandEnded: {'returncode': 2}
+[0.541065] (first_interfaces) JobEnded: {'identifier': 'first_interfaces', 'rc': 2}
+[0.551428] (-) EventReactorShutdown: {}

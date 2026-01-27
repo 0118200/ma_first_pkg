@@ -1,0 +1,20 @@
+[0.017s] Invoking command in '/home/eilero/ros2_ws/src/build/subpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/subpub -- -j16 -l16
+[0.043s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.198s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.221s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.228s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.294s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.295s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.347s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.396s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.396s]   ament_target_dependencies() the passed package name 'first_interfaces' was
+[0.396s]   not found before
+[0.396s] Call Stack (most recent call first):
+[0.396s]   CMakeLists.txt:13 (ament_target_dependencies)
+[0.396s] 
+[0.397s] [0m
+[0.397s] -- Configuring incomplete, errors occurred!
+[0.403s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.407s] Invoked command in '/home/eilero/ros2_ws/src/build/subpub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/subpub -- -j16 -l16

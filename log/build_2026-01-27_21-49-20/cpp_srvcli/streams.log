@@ -1,0 +1,30 @@
+[0.019s] Invoking command in '/home/eilero/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/subs_pubs:/home/eilero/ros2_ws/install/pkg1:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[0.094s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_three_ints_client.cpp.o[0m
+[0.094s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_three_ints_server.cpp.o[0m
+[3.136s] [ 75%] [32m[1mLinking CXX executable server[0m
+[3.261s] [ 75%] Built target server
+[3.325s] [100%] [32m[1mLinking CXX executable client[0m
+[3.452s] [100%] Built target client
+[3.464s] Invoked command in '/home/eilero/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/subs_pubs:/home/eilero/ros2_ws/install/pkg1:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[3.475s] Invoking command in '/home/eilero/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/subs_pubs:/home/eilero/ros2_ws/install/pkg1:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/ros2_ws/build/cpp_srvcli
+[3.484s] -- Install configuration: ""
+[3.484s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[3.484s] -- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[3.484s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[3.485s] -- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[3.486s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[3.486s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[3.486s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[3.486s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[3.486s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[3.486s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[3.486s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[3.487s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[3.487s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[3.487s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[3.487s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[3.487s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[3.487s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[3.487s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[3.488s] -- Installing: /home/eilero/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[3.490s] Invoked command in '/home/eilero/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/subs_pubs:/home/eilero/ros2_ws/install/pkg1:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/ros2_ws/build/cpp_srvcli

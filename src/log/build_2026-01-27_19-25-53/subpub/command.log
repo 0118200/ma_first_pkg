@@ -1,0 +1,2 @@
+Invoking command in '/home/eilero/ros2_ws/src/build/subpub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/subpub -- -j16 -l16
+Invoked command in '/home/eilero/ros2_ws/src/build/subpub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/subpub -- -j16 -l16

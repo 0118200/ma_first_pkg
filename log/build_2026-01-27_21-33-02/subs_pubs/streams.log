@@ -1,0 +1,20 @@
+[0.021s] Invoking command in '/home/eilero/ros2_ws/build/subs_pubs': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/build/subs_pubs -- -j16 -l16
+[0.058s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.242s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.260s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.267s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.341s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.342s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.393s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.449s] -- Found first_interfaces: 0.0.0 (/home/eilero/ros2_ws/install/first_interfaces/share/first_interfaces/cmake)
+[0.490s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.490s]   ament_target_dependencies() the first argument must be a valid target name
+[0.491s] Call Stack (most recent call first):
+[0.491s]   CMakeLists.txt:13 (ament_target_dependencies)
+[0.491s] 
+[0.491s] [0m
+[0.491s] -- Configuring incomplete, errors occurred!
+[0.500s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.503s] Invoked command in '/home/eilero/ros2_ws/build/subs_pubs' returned '2': CMAKE_PREFIX_PATH=/home/eilero/ros2_ws/install/first_interfaces:/home/eilero/ros2_ws/install/pkg1:/home/eilero/ros2_ws/install/cpp_srvcli:/home/eilero/ros2_ws/install/cpp_pubsub:/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/build/subs_pubs -- -j16 -l16

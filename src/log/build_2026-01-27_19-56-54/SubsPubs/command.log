@@ -1,0 +1,6 @@
+Invoking command in '/home/eilero/ros2_ws/src/build/SubsPubs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/eilero/ros2_ws/src/SubsPubs -DCMAKE_INSTALL_PREFIX=/home/eilero/ros2_ws/src/install/SubsPubs
+Invoked command in '/home/eilero/ros2_ws/src/build/SubsPubs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/eilero/ros2_ws/src/SubsPubs -DCMAKE_INSTALL_PREFIX=/home/eilero/ros2_ws/src/install/SubsPubs
+Invoking command in '/home/eilero/ros2_ws/src/build/SubsPubs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/SubsPubs -- -j16 -l16
+Invoked command in '/home/eilero/ros2_ws/src/build/SubsPubs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/src/build/SubsPubs -- -j16 -l16
+Invoking command in '/home/eilero/ros2_ws/src/build/SubsPubs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/ros2_ws/src/build/SubsPubs
+Invoked command in '/home/eilero/ros2_ws/src/build/SubsPubs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/ros2_ws/src/build/SubsPubs
