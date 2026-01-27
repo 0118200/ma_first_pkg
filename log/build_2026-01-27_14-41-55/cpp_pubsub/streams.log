@@ -1,0 +1,40 @@
+[0.013s] Invoking command in '/home/eilero/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/eilero/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/eilero/ros2_ws/install/cpp_pubsub
+[0.030s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.246s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.272s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.282s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.295s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.310s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.340s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.402s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.403s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.481s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.620s] -- Configuring done (0.6s)
+[0.630s] -- Generating done (0.0s)
+[0.632s] -- Build files have been written to: /home/eilero/ros2_ws/build/cpp_pubsub
+[0.638s] Invoked command in '/home/eilero/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/eilero/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/eilero/ros2_ws/install/cpp_pubsub
+[0.639s] Invoking command in '/home/eilero/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/build/cpp_pubsub -- -j16 -l16
+[0.696s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[4.003s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.154s] [100%] Built target talker
+[4.165s] Invoked command in '/home/eilero/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/ros2_ws/build/cpp_pubsub -- -j16 -l16
+[4.174s] Invoking command in '/home/eilero/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/ros2_ws/build/cpp_pubsub
+[4.181s] -- Install configuration: ""
+[4.182s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[4.183s] -- Set non-toolchain portion of runtime path of "/home/eilero/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[4.183s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[4.183s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[4.183s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[4.183s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[4.183s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[4.184s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[4.184s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[4.184s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[4.184s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[4.184s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[4.184s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[4.184s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[4.185s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[4.185s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[4.185s] -- Installing: /home/eilero/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[4.186s] Invoked command in '/home/eilero/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/ros2_ws/build/cpp_pubsub

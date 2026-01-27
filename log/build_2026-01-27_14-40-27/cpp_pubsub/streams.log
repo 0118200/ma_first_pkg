@@ -1,0 +1,17 @@
+[0.012s] Invoking command in '/home/eilero/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/eilero/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/eilero/ros2_ws/install/cpp_pubsub
+[0.030s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.239s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.265s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.275s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.288s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.303s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.333s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.394s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.395s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.468s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.541s] [31mCMake Error at CMakeLists.txt:16 (install):
+[0.541s]   install TARGETS given target "DESTIONATION" which does not exist.
+[0.541s] 
+[0.542s] [0m
+[0.602s] -- Configuring incomplete, errors occurred!
+[0.609s] Invoked command in '/home/eilero/ros2_ws/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/eilero/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/eilero/ros2_ws/install/cpp_pubsub

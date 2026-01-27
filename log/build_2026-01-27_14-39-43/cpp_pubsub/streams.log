@@ -1,0 +1,33 @@
+[0.016s] Invoking command in '/home/eilero/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/eilero/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/eilero/ros2_ws/install/cpp_pubsub
+[0.200s] -- The C compiler identification is GNU 13.3.0
+[0.310s] -- The CXX compiler identification is GNU 13.3.0
+[0.336s] -- Detecting C compiler ABI info
+[0.461s] -- Detecting C compiler ABI info - done
+[0.470s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.471s] -- Detecting C compile features
+[0.472s] -- Detecting C compile features - done
+[0.485s] -- Detecting CXX compiler ABI info
+[0.611s] -- Detecting CXX compiler ABI info - done
+[0.621s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.621s] -- Detecting CXX compile features
+[0.622s] -- Detecting CXX compile features - done
+[0.627s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.777s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.907s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.951s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.963s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.979s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.995s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.026s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.085s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.088s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.180s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.195s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.213s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.276s] [31mCMake Error at CMakeLists.txt:21 (install):
+[1.276s]   install TARGETS given target "DESTIONATIONS" which does not exist.
+[1.276s] 
+[1.276s] [0m
+[1.278s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.344s] -- Configuring incomplete, errors occurred!
+[1.352s] Invoked command in '/home/eilero/ros2_ws/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/eilero/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/eilero/ros2_ws/install/cpp_pubsub

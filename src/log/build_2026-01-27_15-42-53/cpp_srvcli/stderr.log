@@ -1,0 +1,25 @@
+[01m[K/home/eilero/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/two_ints.hpp: No such file or directory
+    2 | #include [01;31m[K"example_interfaces/srv/two_ints.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/eilero/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/eilero/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:27:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kshutdown[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::shutdown[m[K’?
+   27 |     rclcpp:[01;31m[Kshutdown[m[K();
+      |            [01;31m[K^~~~~~~~[m[K
+      |            [32m[Krclcpp::shutdown[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/eilero/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:194:1:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::shutdown[m[K’ declared here
+  194 | [01;36m[Kshutdown[m[K(
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/home/eilero/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:27:5:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Krclcpp[m[K’ defined but not used [[01;35m[K-Wunused-label[m[K]
+   27 |     [01;35m[Krclcpp[m[K:shutdown();
+      |     [01;35m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
