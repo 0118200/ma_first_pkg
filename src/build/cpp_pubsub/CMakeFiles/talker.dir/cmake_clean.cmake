@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o"
-  "CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o.d"
+  "CMakeFiles/talker.dir/src/pub.cpp.o"
+  "CMakeFiles/talker.dir/src/pub.cpp.o.d"
   "talker"
   "talker.pdb"
 )

@@ -21,12 +21,12 @@ first_interfaces__msg__Sphere__init(first_interfaces__msg__Sphere * msg)
   if (!msg) {
     return false;
   }
-  // radius
   // center
   if (!geometry_msgs__msg__Point__init(&msg->center)) {
     first_interfaces__msg__Sphere__fini(msg);
     return false;
   }
+  // radius
   return true;
 }
 
@@ -36,9 +36,9 @@ first_interfaces__msg__Sphere__fini(first_interfaces__msg__Sphere * msg)
   if (!msg) {
     return;
   }
-  // radius
   // center
   geometry_msgs__msg__Point__fini(&msg->center);
+  // radius
 }
 
 bool
@@ -47,14 +47,14 @@ first_interfaces__msg__Sphere__are_equal(const first_interfaces__msg__Sphere * l
   if (!lhs || !rhs) {
     return false;
   }
-  // radius
-  if (lhs->radius != rhs->radius) {
-    return false;
-  }
   // center
   if (!geometry_msgs__msg__Point__are_equal(
       &(lhs->center), &(rhs->center)))
   {
+    return false;
+  }
+  // radius
+  if (lhs->radius != rhs->radius) {
     return false;
   }
   return true;
@@ -68,14 +68,14 @@ first_interfaces__msg__Sphere__copy(
   if (!input || !output) {
     return false;
   }
-  // radius
-  output->radius = input->radius;
   // center
   if (!geometry_msgs__msg__Point__copy(
       &(input->center), &(output->center)))
   {
     return false;
   }
+  // radius
+  output->radius = input->radius;
   return true;
 }
 

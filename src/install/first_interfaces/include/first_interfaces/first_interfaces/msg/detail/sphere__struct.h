@@ -26,8 +26,8 @@ extern "C"
 /// Struct defined in msg/Sphere in the package first_interfaces.
 typedef struct first_interfaces__msg__Sphere
 {
-  double radius;
   geometry_msgs__msg__Point center;
+  double radius;
 } first_interfaces__msg__Sphere;
 
 // Struct for a sequence of first_interfaces__msg__Sphere.

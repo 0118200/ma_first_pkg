@@ -7,9 +7,9 @@
 module first_interfaces {
   module msg {
     struct Sphere {
-      double radius;
-
       geometry_msgs::msg::Point center;
+
+      double radius;
     };
   };
 };

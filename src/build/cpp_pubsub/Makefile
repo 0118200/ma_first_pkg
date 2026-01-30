@@ -223,53 +223,53 @@ listener/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/build
 .PHONY : listener/fast
 
-src/publisher_lambda_function.o: src/publisher_lambda_function.cpp.o
-.PHONY : src/publisher_lambda_function.o
+src/pub.o: src/pub.cpp.o
+.PHONY : src/pub.o
 
 # target to build an object file
-src/publisher_lambda_function.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o
-.PHONY : src/publisher_lambda_function.cpp.o
+src/pub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/pub.cpp.o
+.PHONY : src/pub.cpp.o
 
-src/publisher_lambda_function.i: src/publisher_lambda_function.cpp.i
-.PHONY : src/publisher_lambda_function.i
+src/pub.i: src/pub.cpp.i
+.PHONY : src/pub.i
 
 # target to preprocess a source file
-src/publisher_lambda_function.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.i
-.PHONY : src/publisher_lambda_function.cpp.i
+src/pub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/pub.cpp.i
+.PHONY : src/pub.cpp.i
 
-src/publisher_lambda_function.s: src/publisher_lambda_function.cpp.s
-.PHONY : src/publisher_lambda_function.s
+src/pub.s: src/pub.cpp.s
+.PHONY : src/pub.s
 
 # target to generate assembly for a file
-src/publisher_lambda_function.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.s
-.PHONY : src/publisher_lambda_function.cpp.s
+src/pub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/pub.cpp.s
+.PHONY : src/pub.cpp.s
 
-src/subscriber_lambda_function.o: src/subscriber_lambda_function.cpp.o
-.PHONY : src/subscriber_lambda_function.o
+src/sub.o: src/sub.cpp.o
+.PHONY : src/sub.o
 
 # target to build an object file
-src/subscriber_lambda_function.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o
-.PHONY : src/subscriber_lambda_function.cpp.o
+src/sub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/sub.cpp.o
+.PHONY : src/sub.cpp.o
 
-src/subscriber_lambda_function.i: src/subscriber_lambda_function.cpp.i
-.PHONY : src/subscriber_lambda_function.i
+src/sub.i: src/sub.cpp.i
+.PHONY : src/sub.i
 
 # target to preprocess a source file
-src/subscriber_lambda_function.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.i
-.PHONY : src/subscriber_lambda_function.cpp.i
+src/sub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/sub.cpp.i
+.PHONY : src/sub.cpp.i
 
-src/subscriber_lambda_function.s: src/subscriber_lambda_function.cpp.s
-.PHONY : src/subscriber_lambda_function.s
+src/sub.s: src/sub.cpp.s
+.PHONY : src/sub.s
 
 # target to generate assembly for a file
-src/subscriber_lambda_function.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.s
-.PHONY : src/subscriber_lambda_function.cpp.s
+src/sub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/sub.cpp.s
+.PHONY : src/sub.cpp.s
 
 # Help Target
 help:
@@ -288,12 +288,12 @@ help:
 	@echo "... uninstall"
 	@echo "... listener"
 	@echo "... talker"
-	@echo "... src/publisher_lambda_function.o"
-	@echo "... src/publisher_lambda_function.i"
-	@echo "... src/publisher_lambda_function.s"
-	@echo "... src/subscriber_lambda_function.o"
-	@echo "... src/subscriber_lambda_function.i"
-	@echo "... src/subscriber_lambda_function.s"
+	@echo "... src/pub.o"
+	@echo "... src/pub.i"
+	@echo "... src/pub.s"
+	@echo "... src/sub.o"
+	@echo "... src/sub.i"
+	@echo "... src/sub.s"
 .PHONY : help
 
 

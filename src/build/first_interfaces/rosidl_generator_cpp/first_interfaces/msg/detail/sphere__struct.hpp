@@ -61,24 +61,24 @@ struct Sphere_
   }
 
   // field types and members
-  using _radius_type =
-    double;
-  _radius_type radius;
   using _center_type =
     geometry_msgs::msg::Point_<ContainerAllocator>;
   _center_type center;
+  using _radius_type =
+    double;
+  _radius_type radius;
 
   // setters for named parameter idiom
-  Type & set__radius(
-    const double & _arg)
-  {
-    this->radius = _arg;
-    return *this;
-  }
   Type & set__center(
     const geometry_msgs::msg::Point_<ContainerAllocator> & _arg)
   {
     this->center = _arg;
+    return *this;
+  }
+  Type & set__radius(
+    const double & _arg)
+  {
+    this->radius = _arg;
     return *this;
   }
 
@@ -124,10 +124,10 @@ struct Sphere_
   // comparison operators
   bool operator==(const Sphere_ & other) const
   {
-    if (this->radius != other.radius) {
+    if (this->center != other.center) {
       return false;
     }
-    if (this->center != other.center) {
+    if (this->radius != other.radius) {
       return false;
     }
     return true;

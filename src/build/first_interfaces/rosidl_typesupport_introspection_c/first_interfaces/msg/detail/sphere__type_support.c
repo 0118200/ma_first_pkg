@@ -39,24 +39,6 @@ void first_interfaces__msg__Sphere__rosidl_typesupport_introspection_c__Sphere_f
 
 static rosidl_typesupport_introspection_c__MessageMember first_interfaces__msg__Sphere__rosidl_typesupport_introspection_c__Sphere_message_member_array[2] = {
   {
-    "radius",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is key
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(first_interfaces__msg__Sphere, radius),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
     "center",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
@@ -66,6 +48,24 @@ static rosidl_typesupport_introspection_c__MessageMember first_interfaces__msg__
     0,  // array size
     false,  // is upper bound
     offsetof(first_interfaces__msg__Sphere, center),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "radius",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(first_interfaces__msg__Sphere, radius),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -101,7 +101,7 @@ static rosidl_message_type_support_t first_interfaces__msg__Sphere__rosidl_types
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_first_interfaces
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, first_interfaces, msg, Sphere)() {
-  first_interfaces__msg__Sphere__rosidl_typesupport_introspection_c__Sphere_message_member_array[1].members_ =
+  first_interfaces__msg__Sphere__rosidl_typesupport_introspection_c__Sphere_message_member_array[0].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, geometry_msgs, msg, Point)();
   if (!first_interfaces__msg__Sphere__rosidl_typesupport_introspection_c__Sphere_message_type_support_handle.typesupport_identifier) {
     first_interfaces__msg__Sphere__rosidl_typesupport_introspection_c__Sphere_message_type_support_handle.typesupport_identifier =

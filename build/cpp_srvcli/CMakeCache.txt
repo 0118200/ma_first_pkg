@@ -277,9 +277,6 @@ TinyXML2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/tinyxml2
 //Path to a library.
 _lib:FILEPATH=/home/eilero/ros2_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so
 
-//The directory containing a CMake configuration file for action_msgs.
-action_msgs_DIR:PATH=/opt/ros/jazzy/share/action_msgs/cmake
-
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/jazzy/share/ament_cmake/cmake
 
@@ -342,9 +339,6 @@ cpp_srvcli_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 cpp_srvcli_SOURCE_DIR:STATIC=/home/eilero/ros2_ws/src/cpp_srvcli
-
-//The directory containing a CMake configuration file for example_interfaces.
-example_interfaces_DIR:PATH=/opt/ros/jazzy/share/example_interfaces/cmake
 
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/jazzy/lib/cmake/fastcdr
@@ -474,9 +468,6 @@ tracetools_DIR:PATH=/opt/ros/jazzy/share/tracetools/cmake
 
 //The directory containing a CMake configuration file for type_description_interfaces.
 type_description_interfaces_DIR:PATH=/opt/ros/jazzy/share/type_description_interfaces/cmake
-
-//The directory containing a CMake configuration file for unique_identifier_msgs.
-unique_identifier_msgs_DIR:PATH=/opt/ros/jazzy/share/unique_identifier_msgs/cmake
 
 
 ########################

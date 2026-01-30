@@ -4,22 +4,22 @@
       "type_name": "first_interfaces/msg/Sphere",
       "fields": [
         {
-          "name": "radius",
-          "type": {
-            "type_id": 11,
-            "capacity": 0,
-            "string_capacity": 0,
-            "nested_type_name": ""
-          },
-          "default_value": ""
-        },
-        {
           "name": "center",
           "type": {
             "type_id": 1,
             "capacity": 0,
             "string_capacity": 0,
             "nested_type_name": "geometry_msgs/msg/Point"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "radius",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
           },
           "default_value": ""
         }
@@ -66,7 +66,7 @@
   "type_hashes": [
     {
       "type_name": "first_interfaces/msg/Sphere",
-      "hash_string": "RIHS01_d74a49f74b317832136348ca454a46575aee1a724194b61e3c16b6fc9be309a4"
+      "hash_string": "RIHS01_dd2cbfcd7cfbe750c3dec453f7957073913c1f089b3bfef3eb93632342deca14"
     },
     {
       "type_name": "geometry_msgs/msg/Point",

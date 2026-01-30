@@ -11,10 +11,10 @@ first_interfaces__msg__Sphere__get_type_hash(
 {
   (void)type_support;
   static rosidl_type_hash_t hash = {1, {
-      0xd7, 0x4a, 0x49, 0xf7, 0x4b, 0x31, 0x78, 0x32,
-      0x13, 0x63, 0x48, 0xca, 0x45, 0x4a, 0x46, 0x57,
-      0x5a, 0xee, 0x1a, 0x72, 0x41, 0x94, 0xb6, 0x1e,
-      0x3c, 0x16, 0xb6, 0xfc, 0x9b, 0xe3, 0x09, 0xa4,
+      0xdd, 0x2c, 0xbf, 0xcd, 0x7c, 0xfb, 0xe7, 0x50,
+      0xc3, 0xde, 0xc4, 0x53, 0xf7, 0x95, 0x70, 0x73,
+      0x91, 0x3c, 0x1f, 0x08, 0x9b, 0x3b, 0xfe, 0xf3,
+      0xeb, 0x93, 0x63, 0x23, 0x42, 0xde, 0xca, 0x14,
     }};
   return &hash;
 }
@@ -39,20 +39,10 @@ static char first_interfaces__msg__Sphere__TYPE_NAME[] = "first_interfaces/msg/S
 static char geometry_msgs__msg__Point__TYPE_NAME[] = "geometry_msgs/msg/Point";
 
 // Define type names, field names, and default values
-static char first_interfaces__msg__Sphere__FIELD_NAME__radius[] = "radius";
 static char first_interfaces__msg__Sphere__FIELD_NAME__center[] = "center";
+static char first_interfaces__msg__Sphere__FIELD_NAME__radius[] = "radius";
 
 static rosidl_runtime_c__type_description__Field first_interfaces__msg__Sphere__FIELDS[] = {
-  {
-    {first_interfaces__msg__Sphere__FIELD_NAME__radius, 6, 6},
-    {
-      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_DOUBLE,
-      0,
-      0,
-      {NULL, 0, 0},
-    },
-    {NULL, 0, 0},
-  },
   {
     {first_interfaces__msg__Sphere__FIELD_NAME__center, 6, 6},
     {
@@ -60,6 +50,16 @@ static rosidl_runtime_c__type_description__Field first_interfaces__msg__Sphere__
       0,
       0,
       {geometry_msgs__msg__Point__TYPE_NAME, 23, 23},
+    },
+    {NULL, 0, 0},
+  },
+  {
+    {first_interfaces__msg__Sphere__FIELD_NAME__radius, 6, 6},
+    {
+      rosidl_runtime_c__type_description__FieldType__FIELD_TYPE_DOUBLE,
+      0,
+      0,
+      {NULL, 0, 0},
     },
     {NULL, 0, 0},
   },
@@ -94,8 +94,8 @@ first_interfaces__msg__Sphere__get_type_description(
 }
 
 static char toplevel_type_raw_source[] =
-  "float64 radius\n"
-  "geometry_msgs/Point center";
+  "geometry_msgs/Point center\n"
+  "float64 radius";
 
 static char msg_encoding[] = "msg";
 

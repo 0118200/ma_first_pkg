@@ -4,9 +4,9 @@
 
 #include <string.h>
 
+#include "first_interfaces/msg/detail/sphere__type_support.h"
 #include "first_interfaces/msg/detail/sphere__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "first_interfaces/msg/detail/sphere__type_support.h"
 #include "first_interfaces/msg/detail/sphere__functions.h"
 
 #ifdef __cplusplus

@@ -54,15 +54,6 @@ bool first_interfaces__msg__sphere__convert_from_py(PyObject * _pymsg, void * _r
     assert(strncmp("first_interfaces.msg._sphere.Sphere", full_classname_dest, 35) == 0);
   }
   first_interfaces__msg__Sphere * ros_message = _ros_message;
-  {  // radius
-    PyObject * field = PyObject_GetAttrString(_pymsg, "radius");
-    if (!field) {
-      return false;
-    }
-    assert(PyFloat_Check(field));
-    ros_message->radius = PyFloat_AS_DOUBLE(field);
-    Py_DECREF(field);
-  }
   {  // center
     PyObject * field = PyObject_GetAttrString(_pymsg, "center");
     if (!field) {
@@ -72,6 +63,15 @@ bool first_interfaces__msg__sphere__convert_from_py(PyObject * _pymsg, void * _r
       Py_DECREF(field);
       return false;
     }
+    Py_DECREF(field);
+  }
+  {  // radius
+    PyObject * field = PyObject_GetAttrString(_pymsg, "radius");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->radius = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 
@@ -96,17 +96,6 @@ PyObject * first_interfaces__msg__sphere__convert_to_py(void * raw_ros_message)
     }
   }
   first_interfaces__msg__Sphere * ros_message = (first_interfaces__msg__Sphere *)raw_ros_message;
-  {  // radius
-    PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->radius);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "radius", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
   {  // center
     PyObject * field = NULL;
     field = geometry_msgs__msg__point__convert_to_py(&ros_message->center);
@@ -115,6 +104,17 @@ PyObject * first_interfaces__msg__sphere__convert_to_py(void * raw_ros_message)
     }
     {
       int rc = PyObject_SetAttrString(_pymessage, "center", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // radius
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->radius);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "radius", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

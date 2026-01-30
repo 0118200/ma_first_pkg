@@ -24,15 +24,15 @@ namespace msg
 namespace builder
 {
 
-class Init_Sphere_center
+class Init_Sphere_radius
 {
 public:
-  explicit Init_Sphere_center(::first_interfaces::msg::Sphere & msg)
+  explicit Init_Sphere_radius(::first_interfaces::msg::Sphere & msg)
   : msg_(msg)
   {}
-  ::first_interfaces::msg::Sphere center(::first_interfaces::msg::Sphere::_center_type arg)
+  ::first_interfaces::msg::Sphere radius(::first_interfaces::msg::Sphere::_radius_type arg)
   {
-    msg_.center = std::move(arg);
+    msg_.radius = std::move(arg);
     return std::move(msg_);
   }
 
@@ -40,16 +40,16 @@ private:
   ::first_interfaces::msg::Sphere msg_;
 };
 
-class Init_Sphere_radius
+class Init_Sphere_center
 {
 public:
-  Init_Sphere_radius()
+  Init_Sphere_center()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_Sphere_center radius(::first_interfaces::msg::Sphere::_radius_type arg)
+  Init_Sphere_radius center(::first_interfaces::msg::Sphere::_center_type arg)
   {
-    msg_.radius = std::move(arg);
-    return Init_Sphere_center(msg_);
+    msg_.center = std::move(arg);
+    return Init_Sphere_radius(msg_);
   }
 
 private:
@@ -67,7 +67,7 @@ template<>
 inline
 auto build<::first_interfaces::msg::Sphere>()
 {
-  return first_interfaces::msg::builder::Init_Sphere_radius();
+  return first_interfaces::msg::builder::Init_Sphere_center();
 }
 
 }  // namespace first_interfaces

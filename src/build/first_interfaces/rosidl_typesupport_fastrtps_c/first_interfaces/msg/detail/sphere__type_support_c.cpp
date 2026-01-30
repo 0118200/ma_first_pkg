@@ -90,15 +90,15 @@ bool cdr_serialize_first_interfaces__msg__Sphere(
   const first_interfaces__msg__Sphere * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Field name: radius
-  {
-    cdr << ros_message->radius;
-  }
-
   // Field name: center
   {
     cdr_serialize_geometry_msgs__msg__Point(
       &ros_message->center, cdr);
+  }
+
+  // Field name: radius
+  {
+    cdr << ros_message->radius;
   }
 
   return true;
@@ -109,14 +109,14 @@ bool cdr_deserialize_first_interfaces__msg__Sphere(
   eprosima::fastcdr::Cdr & cdr,
   first_interfaces__msg__Sphere * ros_message)
 {
-  // Field name: radius
-  {
-    cdr >> ros_message->radius;
-  }
-
   // Field name: center
   {
     cdr_deserialize_geometry_msgs__msg__Point(cdr, &ros_message->center);
+  }
+
+  // Field name: radius
+  {
+    cdr >> ros_message->radius;
   }
 
   return true;
@@ -137,16 +137,16 @@ size_t get_serialized_size_first_interfaces__msg__Sphere(
   (void)padding;
   (void)wchar_size;
 
+  // Field name: center
+  current_alignment += get_serialized_size_geometry_msgs__msg__Point(
+    &(ros_message->center), current_alignment);
+
   // Field name: radius
   {
     size_t item_size = sizeof(ros_message->radius);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-
-  // Field name: center
-  current_alignment += get_serialized_size_geometry_msgs__msg__Point(
-    &(ros_message->center), current_alignment);
 
   return current_alignment - initial_alignment;
 }
@@ -170,14 +170,6 @@ size_t max_serialized_size_first_interfaces__msg__Sphere(
   full_bounded = true;
   is_plain = true;
 
-  // Field name: radius
-  {
-    size_t array_size = 1;
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
-  }
-
   // Field name: center
   {
     size_t array_size = 1;
@@ -196,6 +188,14 @@ size_t max_serialized_size_first_interfaces__msg__Sphere(
     }
   }
 
+  // Field name: radius
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -205,7 +205,7 @@ size_t max_serialized_size_first_interfaces__msg__Sphere(
     using DataType = first_interfaces__msg__Sphere;
     is_plain =
       (
-      offsetof(DataType, center) +
+      offsetof(DataType, radius) +
       last_member_size
       ) == ret_val;
   }
@@ -217,15 +217,15 @@ bool cdr_serialize_key_first_interfaces__msg__Sphere(
   const first_interfaces__msg__Sphere * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Field name: radius
-  {
-    cdr << ros_message->radius;
-  }
-
   // Field name: center
   {
     cdr_serialize_key_geometry_msgs__msg__Point(
       &ros_message->center, cdr);
+  }
+
+  // Field name: radius
+  {
+    cdr << ros_message->radius;
   }
 
   return true;
@@ -246,16 +246,16 @@ size_t get_serialized_size_key_first_interfaces__msg__Sphere(
   (void)padding;
   (void)wchar_size;
 
+  // Field name: center
+  current_alignment += get_serialized_size_key_geometry_msgs__msg__Point(
+    &(ros_message->center), current_alignment);
+
   // Field name: radius
   {
     size_t item_size = sizeof(ros_message->radius);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-
-  // Field name: center
-  current_alignment += get_serialized_size_key_geometry_msgs__msg__Point(
-    &(ros_message->center), current_alignment);
 
   return current_alignment - initial_alignment;
 }
@@ -277,14 +277,6 @@ size_t max_serialized_size_key_first_interfaces__msg__Sphere(
 
   full_bounded = true;
   is_plain = true;
-  // Field name: radius
-  {
-    size_t array_size = 1;
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
-  }
-
   // Field name: center
   {
     size_t array_size = 1;
@@ -303,6 +295,14 @@ size_t max_serialized_size_key_first_interfaces__msg__Sphere(
     }
   }
 
+  // Field name: radius
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -311,7 +311,7 @@ size_t max_serialized_size_key_first_interfaces__msg__Sphere(
     using DataType = first_interfaces__msg__Sphere;
     is_plain =
       (
-      offsetof(DataType, center) +
+      offsetof(DataType, radius) +
       last_member_size
       ) == ret_val;
   }

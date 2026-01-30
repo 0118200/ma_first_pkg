@@ -502,9 +502,6 @@ subs_pubs_SOURCE_DIR:STATIC=/home/eilero/ros2_ws/src/subs_pubs
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/jazzy/share/tracetools/cmake
 
-//The directory containing a CMake configuration file for tutorial_interfaces.
-tutorial_interfaces_DIR:PATH=tutorial_interfaces_DIR-NOTFOUND
-
 //The directory containing a CMake configuration file for type_description_interfaces.
 type_description_interfaces_DIR:PATH=/opt/ros/jazzy/share/type_description_interfaces/cmake
 

@@ -32,17 +32,17 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: radius
-  {
-    out << "radius: ";
-    rosidl_generator_traits::value_to_yaml(msg.radius, out);
-    out << ", ";
-  }
-
   // member: center
   {
     out << "center: ";
     to_flow_style_yaml(msg.center, out);
+    out << ", ";
+  }
+
+  // member: radius
+  {
+    out << "radius: ";
+    rosidl_generator_traits::value_to_yaml(msg.radius, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -51,6 +51,15 @@ inline void to_block_style_yaml(
   const Sphere & msg,
   std::ostream & out, size_t indentation = 0)
 {
+  // member: center
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "center:\n";
+    to_block_style_yaml(msg.center, out, indentation + 2);
+  }
+
   // member: radius
   {
     if (indentation > 0) {
@@ -59,15 +68,6 @@ inline void to_block_style_yaml(
     out << "radius: ";
     rosidl_generator_traits::value_to_yaml(msg.radius, out);
     out << "\n";
-  }
-
-  // member: center
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "center:\n";
-    to_block_style_yaml(msg.center, out, indentation + 2);
   }
 }  // NOLINT(readability/fn_size)
 

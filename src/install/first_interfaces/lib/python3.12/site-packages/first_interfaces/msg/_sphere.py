@@ -68,21 +68,21 @@ class Sphere(metaclass=Metaclass_Sphere):
     """Message class 'Sphere'."""
 
     __slots__ = [
-        '_radius',
         '_center',
+        '_radius',
         '_check_fields',
     ]
 
     _fields_and_field_types = {
-        'radius': 'double',
         'center': 'geometry_msgs/Point',
+        'radius': 'double',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.NamespacedType(['geometry_msgs', 'msg'], 'Point'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -94,9 +94,9 @@ class Sphere(metaclass=Metaclass_Sphere):
             assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
                 'Invalid arguments passed to constructor: %s' % \
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.radius = kwargs.get('radius', float())
         from geometry_msgs.msg import Point
         self.center = kwargs.get('center', Point())
+        self.radius = kwargs.get('radius', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -128,9 +128,9 @@ class Sphere(metaclass=Metaclass_Sphere):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.radius != other.radius:
-            return False
         if self.center != other.center:
+            return False
+        if self.radius != other.radius:
             return False
         return True
 
@@ -138,6 +138,20 @@ class Sphere(metaclass=Metaclass_Sphere):
     def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
+
+    @builtins.property
+    def center(self):
+        """Message field 'center'."""
+        return self._center
+
+    @center.setter
+    def center(self, value):
+        if self._check_fields:
+            from geometry_msgs.msg import Point
+            assert \
+                isinstance(value, Point), \
+                "The 'center' field must be a sub message of type 'Point'"
+        self._center = value
 
     @builtins.property
     def radius(self):
@@ -153,17 +167,3 @@ class Sphere(metaclass=Metaclass_Sphere):
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
                 "The 'radius' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._radius = value
-
-    @builtins.property
-    def center(self):
-        """Message field 'center'."""
-        return self._center
-
-    @center.setter
-    def center(self, value):
-        if self._check_fields:
-            from geometry_msgs.msg import Point
-            assert \
-                isinstance(value, Point), \
-                "The 'center' field must be a sub message of type 'Point'"
-        self._center = value
